@@ -35,12 +35,12 @@ window.onload = function () {
 
 setTimeout(() => {
     document.addEventListener("click", function() {
-        lobo.style.zIndex = '50'
-        lobo.style.opacity = '1'
         var audio = new Audio("img/audio.mp3");
         audio.play();
         document.documentElement.requestFullscreen();
         document.body.style.overflowY = 'hidden'
+        lobo.style.zIndex = '50'
+        lobo.style.opacity = '1'
       });
 }, 15000);
 
