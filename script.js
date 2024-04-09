@@ -39,11 +39,12 @@ setTimeout(() => {
         audio.play();
         document.documentElement.requestFullscreen();
         document.body.style.overflowY = 'hidden'
+        setTimeout(() => {
         lobo.style.zIndex = '50'
         lobo.style.opacity = '1'
+        }, 1000);
       });
-}, 15000);
-
+}, 10000);
 
 
 
