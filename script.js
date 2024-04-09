@@ -42,7 +42,7 @@ setTimeout(() => {
         document.documentElement.requestFullscreen();
         document.body.style.overflowY = 'hidden'
       });
-}, 10000);
+}, 15000);
 
 
 
