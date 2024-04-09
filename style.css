@@ -20,7 +20,8 @@ body {
     top: 0;
     background-image: url(img/lobo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover 90% 100%;
+    background-position: 53% 40%;
 }
 
 header {
